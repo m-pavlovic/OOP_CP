@@ -22,10 +22,6 @@ public class Robot implements Comparable<Robot> {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void setStatus(boolean status) {
         this.status = status;
     }
